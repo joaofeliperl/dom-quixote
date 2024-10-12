@@ -1,0 +1,30 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: auto;
+}
+@media (max-width: 576px) {
+.h-custom {
+height: auto;
+}
+}
+@media (min-width: 1200px) {
+    .h-custom {
+    height: 100%;
+    padding-top: 83px;
+    }
+}
+.form-outline{
+    margin-bottom: 20px;
+}
+.img-fluid{
+    margin-bottom: 100px;
+}
+button{
+    margin-bottom: 15px;
+}
